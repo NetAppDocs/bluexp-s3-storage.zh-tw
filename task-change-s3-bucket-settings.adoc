@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-change-s3-bucket-settings.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: 當您的Amazon S3工作環境可在畫版中使用時、您可以直接從BlueXP變更部分庫位內容。 
+---
+= 變更S3儲存貯體設定
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+當您的Amazon S3工作環境可在畫版中使用時、您可以直接從BlueXP變更部分庫位內容。
+
+請注意、您無法變更庫位名稱、AWS帳戶、區域或物件鎖定設定。
+
+您可以變更的庫位屬性包括：
+
+* 是否為儲存區中的所有物件啟用或停用版本管理。
+* 您可以選擇將標記套用至要新增至儲存庫的物件。
+* 新增至儲存區的新物件是否經過加密、以及用於加密的選項。
+
+
+您可以按一下、直接從BlueXP變更這些庫位設定 image:button-horizontal-more.gif["三點多一點按鈕"] >*管理庫存箱的詳細資料*。
+
+image:screenshot-edit-amazon-s3-bucket.png["顯示如何選取「管理人員詳細資料」按鈕以編輯儲存區內容的快照。"]
+
+
+
+== 變更版本設定
+
+版本管理可讓您將物件的多個版本保留在一個儲存區中、以便還原意外刪除或覆寫的物件。您可以在物件新增至儲存區時、變更未來物件的版本設定。變更版本設定並不會變更現有物件的值。
+
+在由BlueXP建立的新儲存區中、預設會停用版本管理功能、除非您在建立儲存區時啟用「物件鎖定」。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["深入瞭解Amazon S3文件的版本管理"^]。
+
+啟用後、如果您想要暫時或永久停止版本管理、可以選擇「暫停」狀態。一旦啟用版本管理、就無法停用。
+
+image:screenshot-amazon-s3-versioning.png["顯示如何變更儲存區版本設定的快照。"]
+
+
+
+== 新增或變更儲存區中物件的標記
+
+標記是中繼資料、可用來將資源分組、以識別應用程式、環境、區域、雲端供應商等。標記由標記金鑰和標記值組成。您可以將標記新增至儲存區、以便在標記新增至儲存區時、將其套用至物件。您也可以變更及刪除標記和標記值。
+
+在由BlueXP建立的新儲存區中、標記預設為停用。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["如需更多有關標記的資訊、請參閱Amazon S3文件"^]。
+
+image:screenshot-amazon-s3-tags.png["快照顯示如何為儲存區新增標記金鑰/值配對。"]
+
+新增標記後、按一下*套用*以儲存變更。若要新增更多標記、請按一下*新增標記*。每個庫位最多可新增10個標記。
+
+
+
+== 變更加密設定
+
+伺服器端加密可讓您加密Amazon S3目的地的資料。Amazon S3會在物件層級將資料寫入磁碟時加密、並在您存取資料時將其解密。您可以在物件新增至儲存區時、變更用於未來物件的加密設定。
+
+在BluefXP建立的新儲存區中、預設會使用「Amazon S3託管金鑰（SSE-S3）」來啟用加密。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["如需伺服器端加密的詳細資訊、請參閱Amazon S3文件"^]。
+
+或者、您也可以選擇使用「AWS金鑰管理服務金鑰（SSE-KMS）」來啟用加密。您也可以使用自己客戶提供的金鑰（SSE-C）進行加密、但此功能無法透過BlueXP UI使用、您需要使用Amazon介面。
+
+image:screenshot-amazon-s3-encryption1.png["螢幕快照顯示如何變更用於儲存區的加密金鑰類型。"]
+
+如果您選擇「AWS金鑰管理服務金鑰（SSE-KMS）」、您可以選擇已建立的AWS KMS金鑰、也可以使用AWS KMS金鑰ARN（Amazon資源名稱）。
+
+image:screenshot-amazon-s3-encryption2.png["顯示如何為儲存區選取替代加密設定的快照。"]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["請參閱Amazon S3文件、深入瞭解AWS金鑰管理服務"^] 以及關於 https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["使用客戶金鑰與AWS金鑰"^]。

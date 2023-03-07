@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: 在BlueXP中探索S3儲存區之後、您就可以使用NetApp資料服務來進行備份、分層、分類及資料同步。 
+---
+= 將NetApp資料服務與S3儲存區搭配使用
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在BlueXP中探索S3儲存區之後、您就可以使用NetApp資料服務來進行備份、分層、分類及資料同步。
+
+* 使用* Cloud Backup *將內部部署ONTAP 的功能不整合式功能的資料備份Cloud Volumes ONTAP 到S3物件儲存設備。
++
+若要開始使用、請前往「畫版」、並將內部部署ONTAP 的功能性功能性功能性的「動作環境」拖放Cloud Volumes ONTAP 到Amazon S3工作環境中。
+
++
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["深入瞭解如何將ONTAP 資料還原至Amazon S3儲存設備"^]。
+
+* 使用* Cloud Tiering *將非作用中資料從內部部署ONTAP 的物件叢集分層至S3物件儲存。
++
+若要開始使用、請前往「畫版」、並將內部部署ONTAP 的功能性環境拖放到Amazon S3工作環境中。
+
++
+https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html["深入瞭解ONTAP 如何將資料分層至Amazon S3儲存設備"^]。
+
+* 使用* Cloud Sync 支援*來同步資料至S3儲存區或從S3儲存區同步資料。
++
+若要開始使用、請移至「畫版」、然後將來源工作環境拖放到目標工作環境。您的Amazon S3工作環境可以是來源或目標環境。
+
++
+您也可以選取Amazon S3工作環境、然後按一下「服務」面板中的「*同步資料*」、將資料同步到S3儲存區或從S3儲存區同步。
+
++
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["深入瞭解Cloud Sync 此服務"^]。
+
+* 使用* Cloud Data Sense *掃描S3儲存區以取得個人和敏感資料。Cloud Data Sense可掃描帳戶中的任何儲存庫、無論該儲存庫是否為NetApp解決方案所建立。
++
+若要開始使用、請選取您的Amazon S3工作環境、然後從「服務」面板的「*分類*」區段中選取適當的選項、以開始掃描S3儲存格。
+
++
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-s3.html["深入瞭解Cloud Data Sense服務"^]。
+
+

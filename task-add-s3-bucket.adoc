@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-add-s3-bucket.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: 當您的Amazon S3工作環境可在畫版中使用時、您可以直接從BlueXP新增其他庫位。 
+---
+= 新增S3儲存區
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+當您的Amazon S3工作環境可在畫版中使用時、您可以直接從BlueXP新增其他庫位。
+
+.步驟
+. 在「畫版」中、按兩下Amazon S3工作環境以檢視「Amazon S3儲存區總覽」頁面、然後按一下「*新增儲存區*」。
++
+image:screenshot-add-amazon-s3-bucket-button.png["顯示Amazon S3工作環境詳細資料和「新增儲存區」按鈕的快照。"]
+
++
+此時會顯示「_新增儲存區_」頁面。
+
++
+image:screenshot-add-amazon-s3-bucket.png["顯示「新增資源桶」頁面的快照、讓您可以建立自己的Amazon S3資源桶。"]
+
+. 在「新增儲存區」頁面中、輸入建立儲存區所需的資訊、然後按一下「*套用*」。
++
+.. 輸入您要用於貯體的名稱。
+.. 選取將成為庫存箱擁有者的AWS帳戶。這可以是部署Connector的主要帳戶、也可以是 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["您已新增至BlueXP的不同帳戶"^]。
+.. 選取要建立儲存區的AWS區域。
+.. 或者、您也可以使用一次寫入多讀（WORM）模式、啟用儲存區上的S3物件鎖定功能、以儲存物件。如果您打算使用物件鎖定、則必須在建立儲存區時啟用。啟用「物件鎖定」也會啟用「版本管理」。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["請參閱Amazon S3文件、深入瞭解物件鎖定"^]。
++
+儲存庫即會建立。
+
+
+
+
+
+.下一步
+初次新增儲存區時、您無法手動設定版本管理、標記或加密。建立儲存區之後、您可以設定儲存區的這些其他屬性。 link:task-change-s3-bucket-settings.html["深入瞭解如何變更貯體設定"]。

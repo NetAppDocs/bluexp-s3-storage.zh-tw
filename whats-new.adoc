@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, backup, restore' 
+summary: 瞭解BlueXP中Amazon S3儲存設備的新功能。 
+---
+= BlueXP中Amazon S3儲存設備的新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+瞭解BlueXP中Amazon S3儲存設備的新功能。
+
+
+
+== 2023年3月5日
+
+
+
+=== 能夠從BlueXP新增庫位
+
+您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何新增Amazon S3儲存庫"^]。
