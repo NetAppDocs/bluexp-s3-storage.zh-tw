@@ -16,7 +16,7 @@ summary: 在AWS中安裝Connector之後、BlueXP會自動探索安裝Connector�
 [role="lead"]
 在AWS中安裝Connector之後、BlueXP會自動探索安裝Connector之AWS帳戶中的Amazon S3儲存區相關資訊。Amazon S3工作環境會新增至Canvas、以便您檢視此資訊。
 
-您可以查看S3儲存區的詳細資料、包括地區、存取原則、帳戶、總容量和已用容量等。這些儲存庫可做為雲端備份、雲端分層或Cloud Sync 還原作業的目的地。此外、您也可以使用Cloud Data Sense來掃描這些儲存區。
+您可以查看S3儲存區的詳細資料、包括地區、存取原則、帳戶、總容量和已用容量等。這些貯體可做為 BlueXP 備份與還原、 BlueXP 分層或 BlueXP 複製與同步作業的目的地。此外、您也可以使用 BlueXP 分類來掃描這些貯體。
 
 .步驟
 . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["安裝連接器"^] 在您要檢視 Amazon S3 儲存區的 AWS 帳戶中。

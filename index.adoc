@@ -2,8 +2,8 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: 'Get started using Amazon S3 storage with your BlueXP system (formerly Cloud Manager).' 
-summary: 開始使用Amazon S3儲存設備搭配您的BlueXP系統（前身為Cloud Manager）。 
+lead: Get started using Amazon S3 storage with your BlueXP system. 
+summary: 開始將 Amazon S3 儲存設備與 BlueXP 系統搭配使用。 
 ---
 = Amazon S3儲存文件
 :hardbreaks:

@@ -2,7 +2,6 @@
 <blocks>
   <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">在AWS中安裝Connector之後、BlueXP會自動探索安裝Connector之AWS帳戶中的Amazon S3儲存區相關資訊。Amazon S3工作環境會新增至Canvas、以便您檢視此資訊。</block>
   <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">檢視您的 Amazon S3 時段</block>
-  <block id="bf9799ea7692475c7cf9755a148ec201" category="paragraph">您可以查看S3儲存區的詳細資料、包括地區、存取原則、帳戶、總容量和已用容量等。這些儲存庫可做為雲端備份、雲端分層或Cloud Sync 還原作業的目的地。此外、您也可以使用Cloud Data Sense來掃描這些儲存區。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="9c626900b015a97ee8e428d66dd7d5d1" category="inline-link">安裝連接器</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">從導覽功能表中、選取*儲存設備&gt; Canvas*。</block>
@@ -133,24 +132,14 @@
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">在BlueXP中探索S3儲存區之後、您就可以使用NetApp資料服務來進行備份、分層、分類及資料同步。</block>
   <block id="49b9d9b89078e5e4f47991c877526750" category="doc">將NetApp資料服務與S3儲存區搭配使用</block>
-  <block id="db0f7065ba0a96411a0de05280ec7352" category="list-text">使用* Cloud Backup *將內部部署ONTAP 的功能不整合式功能的資料備份Cloud Volumes ONTAP 到S3物件儲存設備。</block>
   <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">若要開始使用、請前往「畫版」、並將內部部署ONTAP 的功能性功能性功能性的「動作環境」拖放Cloud Volumes ONTAP 到Amazon S3工作環境中。</block>
   <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">深入瞭解如何將ONTAP 資料還原至Amazon S3儲存設備</block>
   <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>。</block>
-  <block id="7202459e7043ba4b6f866b6aa920e679" category="list-text">使用* Cloud Tiering *將非作用中資料從內部部署ONTAP 的物件叢集分層至S3物件儲存。</block>
   <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">若要開始使用、請前往「畫版」、並將內部部署ONTAP 的功能性環境拖放到Amazon S3工作環境中。</block>
   <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">深入瞭解ONTAP 如何將資料分層至Amazon S3儲存設備</block>
   <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>。</block>
-  <block id="0e1d535f7ffeb46d1cedce4380540ece" category="list-text">使用* Cloud Sync 支援*來同步資料至S3儲存區或從S3儲存區同步資料。</block>
   <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">若要開始使用、請移至「畫版」、然後將來源工作環境拖放到目標工作環境。您的Amazon S3工作環境可以是來源或目標環境。</block>
-  <block id="ab9e49315276ae32c73ed19323492c14" category="paragraph">您也可以選取Amazon S3工作環境、然後按一下「服務」面板中的「*同步資料*」、將資料同步到S3儲存區或從S3儲存區同步。</block>
-  <block id="d7ac8297012a05979b15d24f9d3b130c" category="inline-link">深入瞭解Cloud Sync 此服務</block>
-  <block id="1bd2d5ff3aeebe1a238c886f7388e42f" category="paragraph"><block ref="9349c5ab3057a0ff71d35b794d6794a5" category="inline-link-rx"></block>。</block>
-  <block id="024e60ab8f7a88270d46c6aed054f6bd" category="list-text">使用* Cloud Data Sense *掃描S3儲存區以取得個人和敏感資料。Cloud Data Sense可掃描帳戶中的任何儲存庫、無論該儲存庫是否為NetApp解決方案所建立。</block>
   <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">若要開始使用、請選取您的Amazon S3工作環境、然後從「服務」面板的「*分類*」區段中選取適當的選項、以開始掃描S3儲存格。</block>
-  <block id="febefe350001907b76b53ef88b63361e" category="inline-link">深入瞭解Cloud Data Sense服務</block>
-  <block id="3ef78a45208afe4b2f2ca2cdade6c100" category="paragraph"><block ref="4ba69bfe1627585dab52e6f3cbb737bc" category="inline-link-rx"></block>。</block>
-  <block id="f5b5c580cdea371eec20c3e34f9c28d4" category="summary">開始使用Amazon S3儲存設備搭配您的BlueXP系統（前身為Cloud Manager）。</block>
   <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3儲存文件</block>
   <block id="f54c8c1223f73d87869999847d1ae49e" category="summary">瞭解BlueXP中Amazon S3儲存設備的新功能。</block>
   <block id="9a8d5d2b68f540bdc8d48d6f59172160" category="doc">BlueXP中Amazon S3儲存設備的新功能</block>
@@ -291,4 +280,15 @@
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="33f05c582a652d788edcb0b74a401a92" category="list-text"><block ref="c626d18348452ff034d9c34b877c8510" category="inline-link-rx"></block> 在您要檢視 Amazon S3 儲存區的 AWS 帳戶中。</block>
+  <block id="6f398b0701e7de915bb04028de8bb878" category="summary">開始將 Amazon S3 儲存設備與 BlueXP 系統搭配使用。</block>
+  <block id="55d43ef1b3aadb22506c7c638269e01f" category="list-text">使用 * BlueXP 備份與還原 * 、將內部部署 ONTAP 與 Cloud Volumes ONTAP 系統的資料備份到 S3 物件儲存設備。</block>
+  <block id="e9e23123fd45494a9875ecbf65b7c4c2" category="list-text">使用 * BlueXP 分層 * 、將內部部署 ONTAP 叢集的非使用中資料分層至 S3 物件儲存設備。</block>
+  <block id="abf72b99927199c83ae30fe49e03ad1f" category="list-text">使用 * BlueXP 複製與同步 * 、將資料同步到 S3 儲存區或從 S3 儲存區同步。</block>
+  <block id="206ea88fa47e88b7036f838bb0a17b5b" category="paragraph">您也可以選取 Amazon S3 工作環境、然後從「服務」面板按一下「 * 複製與同步 * 」、將資料與 S3 儲存區同步。</block>
+  <block id="f850079a6ff3f16354189a6475029756" category="inline-link">深入瞭解 BlueXP 複本與同步服務</block>
+  <block id="5d0005389917956f669c6c8a2bdb9021" category="paragraph"><block ref="38c89c9372e10aa3cf45428e5f26fe27" category="inline-link-rx"></block>。</block>
+  <block id="648a3a428fc442c8406158cb9e5afb20" category="list-text">使用 * BlueXP 分類 * 來掃描 S3 儲存區中的個人和敏感資料。BlueXP 分類可以掃描帳戶中的任何儲存庫、無論是否為 NetApp 解決方案所建立。</block>
+  <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">深入瞭解 BlueXP 分類服務</block>
+  <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>。</block>
+  <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">您可以查看S3儲存區的詳細資料、包括地區、存取原則、帳戶、總容量和已用容量等。這些貯體可做為 BlueXP 備份與還原、 BlueXP 分層或 BlueXP 複製與同步作業的目的地。此外、您也可以使用 BlueXP 分類來掃描這些貯體。</block>
 </blocks>
