@@ -154,7 +154,6 @@
   <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">是否為儲存區中的所有物件啟用或停用版本管理。</block>
   <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">您可以選擇將標記套用至要新增至儲存庫的物件。</block>
   <block id="7178af2148dd1317957ac72803a11101" category="list-text">新增至儲存區的新物件是否經過加密、以及用於加密的選項。</block>
-  <block id="258dd0211ab217210a7ac3a749ffe94e" category="paragraph">您可以按一下、直接從BlueXP變更這些庫位設定 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> &gt;*管理庫存箱的詳細資料*。</block>
   <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">顯示如何選取「管理人員詳細資料」按鈕以編輯儲存區內容的快照。</block>
   <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">變更版本設定</block>
@@ -291,4 +290,5 @@
   <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">深入瞭解 BlueXP 分類服務</block>
   <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>。</block>
   <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">您可以查看S3儲存區的詳細資料、包括地區、存取原則、帳戶、總容量和已用容量等。這些貯體可做為 BlueXP 備份與還原、 BlueXP 分層或 BlueXP 複製與同步作業的目的地。此外、您也可以使用 BlueXP 分類來掃描這些貯體。</block>
+  <block id="cdf45afb1d66e7ab7ab5a8b752954903" category="paragraph">您可以按一下、直接從BlueXP變更這些庫位設定 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> 一桶。</block>
 </blocks>
