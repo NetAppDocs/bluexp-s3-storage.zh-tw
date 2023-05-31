@@ -33,7 +33,6 @@
   <block id="3528909a31eaf26ed1ec5e91d30680b6" category="list-text">在「新增儲存區」頁面中、輸入建立儲存區所需的資訊、然後按一下「*套用*」。</block>
   <block id="0b70185623faa55e384834695ae8d364" category="list-text">輸入您要用於貯體的名稱。</block>
   <block id="597de3cf2a2ed6f9bd6e82c0a7a73572" category="inline-link">您已新增至BlueXP的不同帳戶</block>
-  <block id="085c603a33e2a93fe33cfaa53bde3bed" category="list-text">選取將成為庫存箱擁有者的AWS帳戶。這可以是部署Connector的主要帳戶、也可以是<block ref="04ca776e6b618b849c3932f8646ac1fb" category="inline-link-rx"></block>。</block>
   <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">選取要建立儲存區的AWS區域。</block>
   <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">請參閱Amazon S3文件、深入瞭解物件鎖定</block>
   <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">或者、您也可以使用一次寫入多讀（WORM）模式、啟用儲存區上的S3物件鎖定功能、以儲存物件。如果您打算使用物件鎖定、則必須在建立儲存區時啟用。啟用「物件鎖定」也會啟用「版本管理」。<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block>。</block>
@@ -73,7 +72,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
@@ -100,20 +98,14 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*組織案例*下、按一下*檢視*以檢視與貴公司相關的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">選擇確切的日期範圍或選擇不同的時間範圍、以修改日期範圍。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理頁面上方表格上方選項的快照、可讓您選擇確切的日期範圍或過去7天、30天或3個月。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">篩選欄的內容。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">「狀態」欄中篩選選項的快照、可讓您篩選出符合特定狀態（例如「作用中」或「已關閉」）的個案。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">出現在表格中的加號圖示</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">按一下以變更表格中顯示的欄 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">顯示可在表格中顯示之欄的快照。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一欄中出現三個點的圖示</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">按一下即可管理現有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資料。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
@@ -129,15 +121,12 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">在BlueXP中探索S3儲存區之後、您就可以使用NetApp資料服務來進行備份、分層、分類及資料同步。</block>
   <block id="49b9d9b89078e5e4f47991c877526750" category="doc">將NetApp資料服務與S3儲存區搭配使用</block>
   <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">若要開始使用、請前往「畫版」、並將內部部署ONTAP 的功能性功能性功能性的「動作環境」拖放Cloud Volumes ONTAP 到Amazon S3工作環境中。</block>
   <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">深入瞭解如何將ONTAP 資料還原至Amazon S3儲存設備</block>
-  <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>。</block>
   <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">若要開始使用、請前往「畫版」、並將內部部署ONTAP 的功能性環境拖放到Amazon S3工作環境中。</block>
   <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">深入瞭解ONTAP 如何將資料分層至Amazon S3儲存設備</block>
-  <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>。</block>
   <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">若要開始使用、請移至「畫版」、然後將來源工作環境拖放到目標工作環境。您的Amazon S3工作環境可以是來源或目標環境。</block>
   <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">若要開始使用、請選取您的Amazon S3工作環境、然後從「服務」面板的「*分類*」區段中選取適當的選項、以開始掃描S3儲存格。</block>
   <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3儲存文件</block>
@@ -189,11 +178,8 @@
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">如需您已整合至BlueXP的下列雲端供應商解決方案的技術支援、請參閱該產品的藍圖XP文件中的「取得協助」。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
@@ -216,7 +202,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP主控台右上角、按一下「說明」圖示、然後選取「*支援*」。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
@@ -228,8 +213,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您擁有預先存在的客戶層級的NSS帳戶、並嘗試新增合作夥伴層級的帳戶、情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個橫點的圖示</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp註冊</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
@@ -238,7 +221,6 @@
   <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至藍圖XP。</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*資源*頁面上、按一下*註冊以取得支援*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">顯示帳戶序號和「Register for Support」（註冊支援）選項的快照</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是現有的NetApp客戶、擁有現有授權和序號、但_否_ nss_帳戶、您只需要建立一個nss.帳戶。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">《使用者登錄表》NetApp 支援網站</block>
@@ -248,7 +230,6 @@
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新推出</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客戶、而且您沒有新的NSS帳戶、請依照下列每個步驟操作。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支援註冊網站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">瀏覽至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 並選擇*我不是NetApp註冊客戶*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（紅色星號）。</block>
@@ -278,17 +259,36 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="33f05c582a652d788edcb0b74a401a92" category="list-text"><block ref="c626d18348452ff034d9c34b877c8510" category="inline-link-rx"></block> 在您要檢視 Amazon S3 儲存區的 AWS 帳戶中。</block>
   <block id="6f398b0701e7de915bb04028de8bb878" category="summary">開始將 Amazon S3 儲存設備與 BlueXP 系統搭配使用。</block>
   <block id="55d43ef1b3aadb22506c7c638269e01f" category="list-text">使用 * BlueXP 備份與還原 * 、將內部部署 ONTAP 與 Cloud Volumes ONTAP 系統的資料備份到 S3 物件儲存設備。</block>
   <block id="e9e23123fd45494a9875ecbf65b7c4c2" category="list-text">使用 * BlueXP 分層 * 、將內部部署 ONTAP 叢集的非使用中資料分層至 S3 物件儲存設備。</block>
   <block id="abf72b99927199c83ae30fe49e03ad1f" category="list-text">使用 * BlueXP 複製與同步 * 、將資料同步到 S3 儲存區或從 S3 儲存區同步。</block>
   <block id="206ea88fa47e88b7036f838bb0a17b5b" category="paragraph">您也可以選取 Amazon S3 工作環境、然後從「服務」面板按一下「 * 複製與同步 * 」、將資料與 S3 儲存區同步。</block>
   <block id="f850079a6ff3f16354189a6475029756" category="inline-link">深入瞭解 BlueXP 複本與同步服務</block>
-  <block id="5d0005389917956f669c6c8a2bdb9021" category="paragraph"><block ref="38c89c9372e10aa3cf45428e5f26fe27" category="inline-link-rx"></block>。</block>
   <block id="648a3a428fc442c8406158cb9e5afb20" category="list-text">使用 * BlueXP 分類 * 來掃描 S3 儲存區中的個人和敏感資料。BlueXP 分類可以掃描帳戶中的任何儲存庫、無論是否為 NetApp 解決方案所建立。</block>
   <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">深入瞭解 BlueXP 分類服務</block>
-  <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>。</block>
   <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">您可以查看S3儲存區的詳細資料、包括地區、存取原則、帳戶、總容量和已用容量等。這些貯體可做為 BlueXP 備份與還原、 BlueXP 分層或 BlueXP 複製與同步作業的目的地。此外、您也可以使用 BlueXP 分類來掃描這些貯體。</block>
   <block id="cdf45afb1d66e7ab7ab5a8b752954903" category="paragraph">您可以按一下、直接從BlueXP變更這些庫位設定 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> 一桶。</block>
+  <block id="31cd35a9507d9186bb5d44594a16da82" category="list-text"><block ref="6a0b8bd678b97cb145a1e339644d0418" category="inline-link-rx"></block> 在您要檢視 Amazon S3 儲存區的 AWS 帳戶中。</block>
+  <block id="a249f26c0fe658ba29f99f0b723c2e26" category="list-text">選取將成為庫存箱擁有者的AWS帳戶。這可以是部署Connector的主要帳戶、也可以是<block ref="a3c828ca86c6b71794265d5ed70eeca4" category="inline-link-rx"></block>。</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5eb875acef05613c5e2e2218cba03126" category="paragraph"><block ref="f56037192a56a58227ef9eb36f03a9ec" category="inline-link-rx"></block>。</block>
+  <block id="cb539309983b973033370e524c04a458" category="paragraph"><block ref="1872214a8e324ce93059ba6cadc608c4" category="inline-link-rx"></block>。</block>
+  <block id="f055b625ba659736f2f6aeb28ac2fd85" category="paragraph"><block ref="82a8e5397a3e5ca934b7faa7a2036870" category="inline-link-rx"></block>。</block>
+  <block id="5f9a9fac39700f99999345591cd72308" category="paragraph"><block ref="a4a0ad288be425d5699f257670a94893" category="inline-link-rx"></block>。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">按一下以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">按一下即可管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
