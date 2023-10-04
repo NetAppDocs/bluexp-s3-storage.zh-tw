@@ -158,7 +158,6 @@
   <block id="2a99f2c69d7ca6830beafd559188a1d0" category="paragraph"><block ref="6680152fb638c9052ac94d98bd762821" category="inline-link-rx"></block> 以及關於<block ref="ff2983fb7d6b017ffe909b1c26efe536" category="inline-link-rx"></block>。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
-  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
@@ -214,7 +213,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
@@ -252,9 +250,7 @@
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">若要使用 * 建立案例 * 功能、您必須先將 NetApp 支援網站 認證與 BlueXP 登入建立關聯。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的 ONTAP 系統開啟案例、則您的 NSS 帳戶必須與該系統的序號相關聯。</block>
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以使用下列其中一個選項尋求協助：</block>
-  <block id="0c7db2bd63c891adb2c0fa4527805d72" category="paragraph">您的 BlueXP 帳戶和個別 Cloud Volumes ONTAP 系統都需要註冊支援。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。如下列所述、將 NetApp 支援網站 （ NSS ）帳戶新增至 BlueXP 即可完成登錄。</block>
-  <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">如需下列雲端供應商解決方案的技術支援、請參閱該產品 BlueXP 文件中的「取得說明」。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">註冊您的 BlueXP 帳戶以取得 NetApp 支援</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">若要註冊以取得支援並啟動支援授權、 BlueXP 帳戶中的一位使用者必須將 NetApp 支援網站 帳戶與其 BlueXP 登入建立關聯。您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
@@ -297,4 +293,9 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">選取以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">選取以管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 結案案例 * ：提供結案原因的詳細資料、並選取 * 結案案例 * 。</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">需要註冊支援、才能獲得 BlueXP 及其儲存解決方案與服務專屬的技術支援。也需要註冊支援、才能啟用 Cloud Volumes ONTAP 系統的重要工作流程。</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">註冊支援並不會啟用雲端供應商檔案服務的 NetApp 支援。如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
 </blocks>
