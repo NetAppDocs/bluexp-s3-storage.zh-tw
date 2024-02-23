@@ -35,32 +35,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 檢視您的Amazon S3儲存庫
-      url: task-viewing-amazon-s3.html
-  - title: 管理S3儲存區
-    links:
-    - title: 新增S3儲存區
-      url: task-add-s3-bucket.html
-    - title: 變更貯體設定
-      url: task-change-s3-bucket-settings.html
-    - title: 將NetApp資料服務與S3儲存區搭配使用
-      url: task-s3-enable-data-services.html
-  - title: 更多資訊
-    links:
-    - title: Amazon S3文件、用於在BlueXP之外進行管理
-      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
-  - title: 部落格與社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://bluexp.netapp.com/blog/topic/cloud-manager
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
