@@ -116,7 +116,6 @@
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能夠從BlueXP新增庫位</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">瞭解如何新增Amazon S3儲存庫</block>
-  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
   <block id="d83ada820c6219a6100ac0d45a42417f" category="summary">當您的Amazon S3工作環境可在畫版中使用時、您可以直接從BlueXP變更部分庫位內容。</block>
   <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">變更S3儲存貯體設定</block>
   <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">請注意、您無法變更庫位名稱、AWS帳戶、區域或物件鎖定設定。</block>
@@ -296,4 +295,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站認證與您的 BlueXP  組織建立關聯：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
+  <block id="7e4353e591e7ee71b0cc70a66b02ee7a" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。<block ref="f5358cf9e8e537088a631ff4313d8401" category="inline-link-rx"></block>。</block>
 </blocks>

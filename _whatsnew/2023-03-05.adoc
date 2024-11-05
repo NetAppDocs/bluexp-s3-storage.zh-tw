@@ -1,0 +1,9 @@
+= 能夠從BlueXP新增庫位
+:allow-uri-read: 
+
+
+
+
+=== 能夠從BlueXP新增庫位
+
+您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何新增Amazon S3儲存庫"]。
