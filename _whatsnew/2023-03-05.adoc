@@ -1,5 +1,7 @@
 = 能夠從BlueXP新增庫位
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
