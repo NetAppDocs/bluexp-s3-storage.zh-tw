@@ -1,7 +1,6 @@
 ---
 settings:
   name: Amazon S3 storage
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:
